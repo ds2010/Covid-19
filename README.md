@@ -1,4 +1,4 @@
-# Production function of death:
+# Production function of death
 
 
 ## Variables
