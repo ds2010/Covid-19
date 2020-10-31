@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-import CNLSZ
-import time
+from pystoned import CNLS
 from pyomo.environ import Constraint
 
 
@@ -31,8 +30,7 @@ z4 = np.asmatrix(z4).T
 z = np.concatenate((z1, z2, z3, z4), axis=1)
 
 # define and solve the CNLS model
-start = time.time()
-res = CNLSZ.CNLSZ(y, x, z, cet= "mult", fun= "prod", rts= "vrs")
+res = CNLS.CNLS(y, x, z, cet= 'mult', fun= 'prod', rts= 'vrs')
 
 def constraint_rule(model, i, j):
     upperbound = [1, 1]
@@ -42,8 +40,7 @@ res.__model__.beta_constraint_rule = Constraint(res.__model__.I,
                                                 res.__model__.J,
                                                 rule=constraint_rule,
                                                 doc='beta constraint')
-res.optimize(remote=False)
-print("Time used :", time.time() - start)
+res.optimize()
 
 # convert results to DataFrame
 alpha = pd.DataFrame(res.get_alpha())
@@ -66,5 +63,3 @@ residual.to_excel(writer, sheet_name='residual')
 
 # Close the Pandas Excel writer and output the Excel file.
 writer.save()
-
-
