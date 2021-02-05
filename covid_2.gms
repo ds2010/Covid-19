@@ -3,7 +3,7 @@ $TITLE  Covid-19 application: Second wave
 * This script is developed for non-commercial use only. All rights reserved.
 
 * Timo Kuosmanen, Aaron Tan, and Sheng Dai,
-* Performance of English NHS hospitals during: the first and second waves of the COVID-19 pandemic (February 5, 2021).
+* Performance of English NHS hospitals during the first and second waves of the COVID-19 pandemic (February 5, 2021).
 * Available at Researchgate:
 
 
