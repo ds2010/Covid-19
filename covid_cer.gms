@@ -1,4 +1,4 @@
-$TITLE  Covid-19 application: convex quantile regression (CER) by CNLS+ Algorithm
+$TITLE  Covid-19 application: convex expectile regression (CER) by CNLS+ Algorithm
 
 * This script is developed for non-commercial use only. All rights reserved.
 
