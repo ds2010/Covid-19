@@ -1,4 +1,4 @@
-# Performance of English NHS hospitals during the COVID-19 pandemic
+# Performance of English NHS hospitals
 
 
 
