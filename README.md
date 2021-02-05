@@ -2,7 +2,7 @@
 
 ## Variables
 
-- Outputs (weekly sums)
+- Output (weekly sums)
     - Deaths of COVID-19 patients	
 
 - Inputs (weekly averages)
