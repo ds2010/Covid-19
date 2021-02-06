@@ -4,7 +4,7 @@ $TITLE  Covid-19 application: Second wave
 
 * Timo Kuosmanen, Aaron Tan, and Sheng Dai,
 * Performance of English NHS hospitals during the first and second waves of the COVID-19 pandemic (February 5, 2021).
-* Available at Researchgate:
+* Available at Researchgate: www.researchgate.net/publication/349075148
 
 
 SETS

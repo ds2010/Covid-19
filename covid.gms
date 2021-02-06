@@ -4,7 +4,7 @@ $TITLE  Covid-19 application: CNLS+ Algorithm
 
 * Timo Kuosmanen, Aaron Tan, and Sheng Dai,
 * Performance of English NHS hospitals during the first and second waves of the COVID-19 pandemic (February 5, 2021).
-* Available at Researchgate:
+* Available at Researchgate: www.researchgate.net/publication/349075148
 
 
 SETS
@@ -81,7 +81,7 @@ B2(i,k)           beta coefficients (positivity quarantees monotonicity)
 Chat2(i)
 ;
 
-**** formula's for calculating CSLS***
+**** formula's for calculating CNLS***
 EQUATIONS
 QSSE1             objective=sum of squares of errors
 QREGRESSION1(i)   regression equation

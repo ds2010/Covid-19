@@ -4,7 +4,7 @@ $TITLE  Covid-19 application: convex expectile regression (CER) by CNLS+ Algorit
 
 * Timo Kuosmanen, Aaron Tan, and Sheng Dai,
 * Performance of English NHS hospitals during the first and second waves of the COVID-19 pandemic (February 5, 2021).
-* Available at Researchgate:
+* Available at Researchgate: www.researchgate.net/publication/349075148
 
 
 SETS
@@ -80,7 +80,7 @@ eplus2(i)
 eminus2(i)
 ;
 
-**** formula's for calculating CSLS***
+**** formula's for calculating CER***
 EQUATIONS
 QSSE1             objective=sum of squares of errors
 QREGRESSION1(i)   regression equation
